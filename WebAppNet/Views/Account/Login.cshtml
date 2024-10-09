@@ -1,0 +1,29 @@
+﻿@model LoginViewModel
+@{
+    Layout = "~/Views/Shared/_Layoutlogin.cshtml"; // Specify your layout
+}
+
+<div>
+    @if (!ViewData.ModelState.IsValid) // Check if there are any validation errors
+    {
+        <div class="alert alert-danger">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" }) // Display summary of errors
+        </div>
+    }
+
+    <form asp-action="Login" method="post">
+        <div>
+            <input asp-for="Username" placeholder="insert here email/username" />
+            <span asp-validation-for="Username" class="text-danger"></span> <!-- Validation error display -->
+        </div>
+        <div>
+            <input asp-for="Password" type="password" placeholder="insert here password" />
+            <span asp-validation-for="Password" class="text-danger"></span> <!-- Validation error display -->
+        </div>
+        <input type="submit" value="Submit" />
+    </form>
+</div>
+
+@section Scripts {
+    @Html.Partial("_ValidationScriptsPartial") <!-- Use Partial instead of RenderPartialAsync -->
+}

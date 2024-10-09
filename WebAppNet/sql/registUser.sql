@@ -1,0 +1,1 @@
+﻿insert into [dbo].[Users] (email, passwords) VALUES (@Email, @Password);

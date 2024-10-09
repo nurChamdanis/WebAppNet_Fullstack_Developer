@@ -1,0 +1,109 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1>@ViewData["Title"]</h1>
+    <button id="generateDataButton" class="btn btn-primary">Generate Data</button>
+    <button id="resetDataButton" class="btn btn-primary" disabled>Reset</button>
+    <button id="submitDataButton" class="btn btn-primary" disabled>Save</button>
+
+    <table class="table table-bordered mt-3" id="userTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Hobby</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be populated here -->
+        </tbody>
+    </table>
+</div>
+
+@section Scripts {
+    <script>
+        let user_data = [];
+        const resetDataButton = document.getElementById('resetDataButton');
+        const submitDataButton = document.getElementById('submitDataButton');
+        // document.getElementById('generateDataButton')
+
+
+
+        document.getElementById('generateDataButton').addEventListener('click', function() {
+            fetch('/Home/runGenerateData')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === 200) {
+                        populateTable(data.data);
+                    } else {
+                        alert(data.message);
+                    }
+                })
+                .catch(error => console.error('Error fetching data:', error));
+        });
+
+
+
+
+        resetDataButton.addEventListener('click', function () {
+            fetch('/Home/runGenerateData')
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 200) {
+                    populateTable(data.data);
+                } else {
+                    alert(data.message);
+                }
+            })
+            .catch(error => console.error('Error fetching data:', error));
+        });
+
+        submitDataButton.addEventListener('click', function () {
+            console.log(user_data); // This will log the current user_data array
+
+            fetch('/Home/saveGenerateData', {
+                method: 'POST', // Change to POST
+                headers: {
+                    'Content-Type': 'application/json', // Set content type
+                },
+                body: JSON.stringify(user_data) // Send the user_data array to the server
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === 200) {
+                        alert(data.message); // Notify the user of success
+                    } else {
+                        alert(data.message); // Handle any error messages
+                    }
+                })
+                .catch(error => console.error('Error saving data:', error));
+        });
+
+
+
+        function populateTable(users) {
+            console.log(users);
+            const tbody = document.querySelector('#userTable tbody');
+            tbody.innerHTML = ''; // Clear existing data
+
+            users.forEach((user, index) => {  
+                const row = `<tr>
+                    <td>${index + 1}</td>
+                    <td>${user.name}</td>
+                    <td>${user.gender}</td>
+                    <td>${user.hobby_detail}</td>
+                    <td>${user.age}</td>
+                </tr>`;
+                tbody.insertAdjacentHTML('beforeend', row);
+            });
+
+            user_data = users;
+            resetDataButton.removeAttribute('disabled');
+            submitDataButton.removeAttribute('disabled');
+        }
+    </script>
+}

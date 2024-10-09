@@ -1,0 +1,1 @@
+﻿insert into [dbo].[hobby](Email, Gender, Hobby_detail, Age ) VALUES (@Email, @Gender, @Hobby_detail, @Age); 
