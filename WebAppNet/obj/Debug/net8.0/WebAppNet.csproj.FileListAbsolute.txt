@@ -149,3 +149,4 @@ C:\Users\chamsd\Documents\WebNet\WebAppNet\WebAppNet\obj\Debug\net8.0\refint\Web
 C:\Users\chamsd\Documents\WebNet\WebAppNet\WebAppNet\obj\Debug\net8.0\WebAppNet.pdb
 C:\Users\chamsd\Documents\WebNet\WebAppNet\WebAppNet\obj\Debug\net8.0\WebAppNet.genruntimeconfig.cache
 C:\Users\chamsd\Documents\WebNet\WebAppNet\WebAppNet\obj\Debug\net8.0\ref\WebAppNet.dll
+C:\Users\chamsd\Documents\WebNet\WebAppNet\WebAppNet\obj\Debug\net8.0\WebAppNet.sourcelink.json

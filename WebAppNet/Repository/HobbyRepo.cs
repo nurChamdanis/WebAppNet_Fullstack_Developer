@@ -19,7 +19,7 @@ namespace WebAppNet.Repository
 
         IList<HobbyGenerate> IHobyRepo.generateHobby()
         {
-            var randomUsers = RunGenerateData.GenerateRandomUsers(10);  
+            var randomUsers = RunGenerateData.GenerateRandomUsers(300);  
             return randomUsers;
         }
 

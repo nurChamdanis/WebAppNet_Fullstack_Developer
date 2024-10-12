@@ -1,12 +1,125 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\chamsd\\Documents\\WebNet\\WebAppNet\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{001DCAF7-F1A3-454C-988E-19DB6A7238B7}|WebAppNet\\WebAppNet.csproj|c:\\users\\chamsd\\documents\\webnet\\webappnet\\webappnet\\controllers\\rungeneratedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{001DCAF7-F1A3-454C-988E-19DB6A7238B7}|WebAppNet\\WebAppNet.csproj|solutionrelative:webappnet\\controllers\\rungeneratedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{001DCAF7-F1A3-454C-988E-19DB6A7238B7}|WebAppNet\\WebAppNet.csproj|c:\\users\\chamsd\\documents\\webnet\\webappnet\\webappnet\\sql\\addhobby.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{001DCAF7-F1A3-454C-988E-19DB6A7238B7}|WebAppNet\\WebAppNet.csproj|solutionrelative:webappnet\\sql\\addhobby.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{001DCAF7-F1A3-454C-988E-19DB6A7238B7}|WebAppNet\\WebAppNet.csproj|c:\\users\\chamsd\\documents\\webnet\\webappnet\\webappnet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{001DCAF7-F1A3-454C-988E-19DB6A7238B7}|WebAppNet\\WebAppNet.csproj|solutionrelative:webappnet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{001DCAF7-F1A3-454C-988E-19DB6A7238B7}|WebAppNet\\WebAppNet.csproj|c:\\users\\chamsd\\documents\\webnet\\webappnet\\webappnet\\repository\\hobbyrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{001DCAF7-F1A3-454C-988E-19DB6A7238B7}|WebAppNet\\WebAppNet.csproj|solutionrelative:webappnet\\repository\\hobbyrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{001DCAF7-F1A3-454C-988E-19DB6A7238B7}|WebAppNet\\WebAppNet.csproj|c:\\users\\chamsd\\documents\\webnet\\webappnet\\webappnet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{001DCAF7-F1A3-454C-988E-19DB6A7238B7}|WebAppNet\\WebAppNet.csproj|solutionrelative:webappnet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{001DCAF7-F1A3-454C-988E-19DB6A7238B7}|WebAppNet\\WebAppNet.csproj|c:\\users\\chamsd\\documents\\webnet\\webappnet\\webappnet\\models\\hobbygenerate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{001DCAF7-F1A3-454C-988E-19DB6A7238B7}|WebAppNet\\WebAppNet.csproj|solutionrelative:webappnet\\models\\hobbygenerate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{001DCAF7-F1A3-454C-988E-19DB6A7238B7}|WebAppNet\\WebAppNet.csproj|c:\\users\\chamsd\\documents\\webnet\\webappnet\\webappnet\\sql\\addhobby.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{001DCAF7-F1A3-454C-988E-19DB6A7238B7}|WebAppNet\\WebAppNet.csproj|solutionrelative:webappnet\\sql\\addhobby.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "addHobby.sql ",
+              "DocumentMoniker": "C:\\Users\\chamsd\\Documents\\WebNet\\WebAppNet\\WebAppNet\\sql\\addHobby.sql",
+              "RelativeDocumentMoniker": "WebAppNet\\sql\\addHobby.sql",
+              "ToolTip": "C:\\Users\\chamsd\\Documents\\WebNet\\WebAppNet\\WebAppNet\\sql\\addHobby.sql",
+              "RelativeToolTip": "WebAppNet\\sql\\addHobby.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-10T04:23:23.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HobbyGenerate.cs",
+              "DocumentMoniker": "C:\\Users\\chamsd\\Documents\\WebNet\\WebAppNet\\WebAppNet\\Models\\HobbyGenerate.cs",
+              "RelativeDocumentMoniker": "WebAppNet\\Models\\HobbyGenerate.cs",
+              "ToolTip": "C:\\Users\\chamsd\\Documents\\WebNet\\WebAppNet\\WebAppNet\\Models\\HobbyGenerate.cs",
+              "RelativeToolTip": "WebAppNet\\Models\\HobbyGenerate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T04:17:29.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HobbyRepo.cs",
+              "DocumentMoniker": "C:\\Users\\chamsd\\Documents\\WebNet\\WebAppNet\\WebAppNet\\Repository\\HobbyRepo.cs",
+              "RelativeDocumentMoniker": "WebAppNet\\Repository\\HobbyRepo.cs",
+              "ToolTip": "C:\\Users\\chamsd\\Documents\\WebNet\\WebAppNet\\WebAppNet\\Repository\\HobbyRepo.cs",
+              "RelativeToolTip": "WebAppNet\\Repository\\HobbyRepo.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwDIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T04:06:46.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\chamsd\\Documents\\WebNet\\WebAppNet\\WebAppNet\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebAppNet\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\chamsd\\Documents\\WebNet\\WebAppNet\\WebAppNet\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebAppNet\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowC0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T04:06:31.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RunGenerateData.cs",
+              "DocumentMoniker": "C:\\Users\\chamsd\\Documents\\WebNet\\WebAppNet\\WebAppNet\\Controllers\\RunGenerateData.cs",
+              "RelativeDocumentMoniker": "WebAppNet\\Controllers\\RunGenerateData.cs",
+              "ToolTip": "C:\\Users\\chamsd\\Documents\\WebNet\\WebAppNet\\WebAppNet\\Controllers\\RunGenerateData.cs",
+              "RelativeToolTip": "WebAppNet\\Controllers\\RunGenerateData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T04:05:32.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\chamsd\\Documents\\WebNet\\WebAppNet\\WebAppNet\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebAppNet\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\chamsd\\Documents\\WebNet\\WebAppNet\\WebAppNet\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebAppNet\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T04:04:19.196Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
